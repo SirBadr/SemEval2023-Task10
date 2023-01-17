@@ -2,3 +2,5 @@ Models/*
 Data/starting_ki/*_unlabelled.csv
 private_space
 .DS_Store
+Results/*.zip
+Results/std*
