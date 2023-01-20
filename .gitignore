@@ -4,3 +4,4 @@ private_space
 .DS_Store
 Results/*.zip
 Results/std*
+Results/*gab.pickle
