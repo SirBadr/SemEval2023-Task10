@@ -5,3 +5,6 @@ private_space
 Results/*.zip
 Results/std*
 Results/*gab.pickle
+_Experiments
+Figs
+Papers
