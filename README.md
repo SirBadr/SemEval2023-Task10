@@ -16,11 +16,27 @@ Our results demonstrate that our Shapley approach effectively produces a high-qu
 
 Please follow these steps to re-run our experiments.
 
-1. Find-tune a model in task A: `Fine-tuning BERT TaskA.ipynb`
-2. Contruct the lexicons: `Lexicon Construciton [PMI].ipynb` and `Lexicon Construciton [Shapley].ipynb`
-3. Generate more data with GPT-J: `Generate data w: GPT-J.ipynb`
-4. Augment the lexicons: `Augmentation w XAI.ipynb` and `Augmentation with GPT-J.ipynb`
-5. Incorperate the lexicons: `Incorporate BERT TaskB.ipynb` and `Evaluation.ipynb`
+1. Find-tune a model in Task A
+* `TaskA Fine-tuning BERT.ipynb`
+* `TaskA Fine-tuning BERTweet.ipynb`
+* `TaskA Fine-tuning TwHINBERT.ipynb`
+
+2. Contruct the lexicons: 
+* `TaskB Lexicon Construciton [PMI].ipynb`
+* `TaskB Lexicon Construciton [Shapley].ipynb`
+
+3. Generate more data with GPT-J: 
+* `Generate data w: GPT-J.ipynb`
+
+4. Augment the lexicons: 
+* `TaskB Augmentation w_ XAI.ipynb`
+* `TaskB Augmentation with BERTTweets.ipynb`
+* `TaskB Augmentation with GPT-J.ipynb`
+
+5. Incorperate the lexicons: 
+* `TaskB Incorporate BERT.ipynb`
+* `TaskB Logistic Regression.ipynb`
+
 
 See our resulting lexicons in `Lexicons`
 
